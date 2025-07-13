@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mines Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Start Menu -->
+  <div class="start-menu">
+    <h1>Mines Game</h1>
+    <p>Choose difficulty:</p>
+    <select title="Select Difficulty" id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select> <br>
+    <button id="start-button">Start Game</button>
+  </div>
+  <!-- Game Area -->
+  <div class="popup">
+    <p id="popup-text"></p>
+    <button id="play-again-button">Play Again</button>
+  </div>
+  <div class="Game-container">
+    <div class="game-header">
+      <h2>Mines Game
+        <button id="menu-button">
+          <i class="fa-solid fa-bars"></i> Menu
+        </button>
+      </h2>
+      <div class="score-wrapper">
+        <p>Total Mines : <span id="mines-count">0</span> 💣</p>
+        <p>Your Score : <span id="score-count">0</span> 😀</p>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <!-- 25 cells -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
