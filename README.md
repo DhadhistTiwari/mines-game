@@ -42,7 +42,7 @@ A colorful, logic-based Minesweeper-style web game built using **HTML**, **CSS**
 
 - HTML5
 - CSS3 (with gradients, shadows, and responsiveness)
-- Vanilla JavaScript (DOM manipulation + logic)
+- JavaScript (DOM manipulation + logic)
 
 ---
 
