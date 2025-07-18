@@ -32,7 +32,7 @@ A colorful, logic-based Minesweeper-style web game built using **HTML**, **CSS**
 1. Select a difficulty: Easy / Medium / Hard
 2. Click **Start Game**
 3. Click on cells to reveal them:
-   - 💣 = Mine (lose a point)
+   - 💣 = Mine (lose a life)
    - 💎 = Gem (gain points)
 4. Clear all cells or survive the mine count to win!
 
