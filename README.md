@@ -12,7 +12,7 @@ A colorful, logic-based Minesweeper-style web game built using **HTML**, **CSS**
 
 ## 🖼️ Screenshot
 
-![Mines Game Screenshot](screenshot.png)
+![Mines Game Screenshot](preview.png))
 > *(preview of game)*
 
 ---
